@@ -46,7 +46,7 @@ fn main() {
         '^' => result = num1 ^ num2,
         '%' => result = num1 % num2,
         'r' => {
-            println!("Result: {}", (num1 as f64).sqrt());
+            println!("\nResult: {}", (num1 as f64).sqrt());
             std::process::exit(0);
         }
         'p' => result = num1.pow(num2 as u32),
